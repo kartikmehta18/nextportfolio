@@ -11,28 +11,29 @@ function Projects() {
             title: "Supply Chain Management Dapp",
             tech: [SiNextdotjs, SiReact,SiSolidity,SiPolygon, SiJavascript, SiTailwindcss],
             link: "https://github.com/kartikmehta18/SupplyChainManagement",
-            cover: "/s.png",
+            
+            cover: "https://creatorspace.imgix.net/users/clt68ujf801awtk01n5j968zg/TZH1I6wEYrc6x06D-scholar%2520dao%2520bento%2520thumbnail.png?w=750&h=750",
             background: "bg-indigo-500",
         },
         {
             title: "Supply Chain Management Dapp",
             tech: [SiNextdotjs, SiReact,SiSolidity,SiPolygon, SiJavascript, SiTailwindcss],
             link: "https://github.com/kartikmehta18/SupplyChainManagement",
-            cover: "/s.png",
+            cover: "https://creatorspace.imgix.net/users/clt68ujf801awtk01n5j968zg/TZH1I6wEYrc6x06D-scholar%2520dao%2520bento%2520thumbnail.png?w=750&h=750",
             background: "bg-green-500",
         },
         {
             title: "Supply Chain Management Dapp",
             tech: [SiNextdotjs, SiReact,SiSolidity,SiPolygon, SiJavascript, SiTailwindcss],
             link: "https://github.com/kartikmehta18/SupplyChainManagement",
-            cover: "/s.png",
+            cover: "https://creatorspace.imgix.net/users/clt68ujf801awtk01n5j968zg/TZH1I6wEYrc6x06D-scholar%2520dao%2520bento%2520thumbnail.png?w=750&h=750",
             background: "bg-indigo-500",
         },
         {
             title: "Supply Chain Management Dapp",
             tech: [SiNextdotjs, SiReact,SiSolidity,SiPolygon, SiJavascript, SiTailwindcss],
             link: "https://github.com/kartikmehta18/SupplyChainManagement",
-            cover: "/s.png",
+            cover: "https://creatorspace.imgix.net/users/clt68ujf801awtk01n5j968zg/TZH1I6wEYrc6x06D-scholar%2520dao%2520bento%2520thumbnail.png?w=750&h=750",
             background: "bg-green-500",
         },
     ]
