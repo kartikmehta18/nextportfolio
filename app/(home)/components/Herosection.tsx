@@ -1,6 +1,8 @@
+"use client"
 import { MovingBtn } from '@/components/moving-border'
 import Link from 'next/link'
 import React from 'react'
+import FuzzyText from '@/components/FuzzyText';
 
 function Herosection() {
   return (
@@ -9,7 +11,17 @@ function Herosection() {
          <h1 className='text-4xl lg:text-7xl font-bold text-white-500'>
             Hello👋,Nice to meet you!
             <br />
-            <span className='underline underline-offset-8 decoration-green-500 -rotate-2'>{"I'm Kartik. "}</span>
+
+           
+  <div className='-ml-14 -rotate-1'>
+  <FuzzyText 
+    baseIntensity={0.2} 
+    hoverIntensity={0.5} 
+    enableHover={true}
+  >I'm Kartik
+  </FuzzyText></div>
+
+            {/* <span className='underline underline-offset-8 decoration-green-500 -rotate-2'>{"I'm Kartik. "}</span> */}
             </h1>
             <p className='md:w-96 text-lg text-gray-300'>
                {
