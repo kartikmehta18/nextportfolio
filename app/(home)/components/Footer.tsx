@@ -86,7 +86,7 @@ function Footer() {
             className="absolute inset-x-0 top-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
           />
         </div>
-        <div className="mx-auto -mt-52 w-full max-w-2xl relative z-10">
+        <div className="mx-auto -mt-52 w-full max-w-2xl relative ">
           <div className="bg-white/0 ">
             {/* <div className="w-12 h-12 translate-x-1 translate-y-1 mx-auto bg-black rounded-lg before:absolute relative before:w-full before:h-full before:bg-black/50 before:rounded-lg before:-top-2 before:-left-2" /> */}
           </div>
@@ -97,7 +97,7 @@ function Footer() {
           made by❤️kartikmehta18
         </h1>
 
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 z-10">
           {social.map((social, index) => {
             return (
               <Link href={social.link} key={index} aria-label={social.label}>

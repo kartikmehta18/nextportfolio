@@ -1,47 +1,49 @@
-"use client"
-import { MovingBtn } from '@/components/moving-border'
-import Link from 'next/link'
-import React from 'react'
-import FuzzyText from '@/components/FuzzyText';
-import ClipPathImage from '@/components/ClipPathImage';
+"use client";
+import { MovingBtn } from "@/components/moving-border";
+import Link from "next/link";
+import React from "react";
+import FuzzyText from "@/components/FuzzyText";
+import ClipPathImage from "@/components/ClipPathImage";
 
 function Herosection() {
   return (
-    <div className=' min-h-[60vh] flex flex-col-reverse gap-14 lg:flex-row items-center justify-between'>
-     <div className='space-y-10 text-center lg:text-left'>
-         <h1 className='text-4xl lg:text-7xl font-bold text-white-500'>
-            Hello👋,Nice to meet you!
-            <br />
-
-           
-  <div className='-ml-14 -rotate-1'>
-  <FuzzyText 
-    baseIntensity={0.2} 
-    hoverIntensity={0.5} 
-    enableHover={true}
-  >I'm Kartik
-  </FuzzyText></div>
-
-            {/* <span className='underline underline-offset-8 decoration-green-500 -rotate-2'>{"I'm Kartik. "}</span> */}
+    <div className=" min-h-[60vh] flex flex-col-reverse gap-14 lg:flex-row items-center justify-between">
+      <div className="space-y-10 text-center lg:text-left">
+        <h1 className="text-4xl lg:text-7xl font-bold text-white-500">
+          Hello👋,Nice to meet you!
+          <br />
+          <div className="-ml-14 -rotate-1">
+            <FuzzyText
+              baseIntensity={0.2}
+              hoverIntensity={0.5}
+              enableHover={true}
+            >
+              I'm Kartik
+            </FuzzyText>
+          </div>
+          {/* <span className='underline underline-offset-8 decoration-green-500 -rotate-2'>{"I'm Kartik. "}</span> */}
+        </h1>
+        <p className="md:w-96 sm:w-20  text-lg text-gray-300">
+          {
+            " Based in India, I am a Full Stack Developer ,UI/UX Designer passion for creating beautiful and functional websites."
+          }
+        </p>
+        <Link
+          href={" mailto:kartikmehta650@gmail.com"}
+          className="inline-block"
+        >
+          <div>
+            <h1 className="text-3xl  font-bold hover:text-green-400 transition-all">
+              Contact me 📬
             </h1>
-            <p className='md:w-96 text-lg text-gray-300'>
-               {
-               " Based in India, I am a Full Stack Developer ,UI/UX Designer passion for creating beautiful and functional websites."
-               }
-            </p>
-            <Link href={" mailto:kartikmehta650@gmail.com"} className='inline-block'>
-            <div>
-               <h1 className='text-3xl  font-bold hover:text-green-400 transition-all'>
-                 Contact me 📬 
-                 </h1>
-               <div className='w-40 h-2 bg-green-500 rounded-full' ></div>
-               <div className='w-40 h-2 bg-indigo-500 rounded-full translate-x-2' ></div>
-            </div>
-            </Link>
-         {/* <h2 className='text-3xl font-bold text-green-500 underline underline-offset-8 decoration-green-500 -rotate-2'>I am a Full Stack Developer</h2> */}
-     </div>
+            <div className="w-40 h-2 bg-green-500 rounded-full"></div>
+            <div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-2"></div>
+          </div>
+        </Link>
+        {/* <h2 className='text-3xl font-bold text-green-500 underline underline-offset-8 decoration-green-500 -rotate-2'>I am a Full Stack Developer</h2> */}
+      </div>
 
-     {/* <div className='relative'>
+      {/* <div className='relative'>
             <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>
 
                 <div className='flex gap-3 translate-x-8'>
@@ -71,13 +73,11 @@ function Herosection() {
             </Link>
             </div>
      </div> */}
-<div>
-  <ClipPathImage/>
-</div>
-
-
+      <div className="sm:w-96  sm:h-96 w-72 h-72 mb-10 lg:mb-0 relative">
+        <ClipPathImage />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Herosection
+export default Herosection;
