@@ -40,7 +40,7 @@ function Internships() {
         />
       </div>
 
-      <div className=" flex">
+      <div className=" xl:flex">
         {/* <div className="h-[40rem] w-full flex items-center justify-center -mt-12 ">
           <PinContainer
             title="Reliance JIO Platform Ltd "
@@ -96,7 +96,7 @@ function Internships() {
 
         
 
-        <div className="h-[40rem] w-full flex items-center justify-center -mt-12 ">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:-mt-12 -mt-40">
           <PinContainer
             title="AICE Idea Lab"
             href="https://twitter.com/kartikmehta_png"
