@@ -19,7 +19,7 @@ function page() {
       <div className='h-10 x1:h-32 bg-gradient-to-t from-black absolute -bottom-5 left-0 x1:bottom-0 w-full"'>
 
       </div>
-      <div className=' max-w-7xl mx-auto p-5 mt-20'>
+      <div className=' max-w-7xl mx-auto p-5 mt-'>
         <Internships/>
       <Skills/>
       <HackathonWin/>
