@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ClipPathImage() {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <>
       {/* Hidden SVG with clip path definition */}
@@ -16,7 +17,7 @@ function ClipPathImage() {
       </svg>
 
       {/* Image with clip path applied */}
-      <figure style={{ clipPath: "url(#clip-squiggle)" }} className="">
+      {/* <figure style={{ clipPath: "url(#clip-squiggle)" }} className="">
         <div className="relative w-full h-full overflow-hidden">
           <img
             src="kartikmehtapiet22ca029.png"
@@ -25,7 +26,20 @@ function ClipPathImage() {
           />
           <div className="absolute inset-0 bg-gray-500 bg-opacity-40 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
         </div>
-      </figure>
+      </figure> */}
+
+       <figure style={{ clipPath: "url(#clip-squiggle)" }}>
+      <div className="relative w-full h-full overflow-hidden">
+        <img
+          src={isHovered ? "kartikimg (9).png" : "kartikmehtapiet22ca029.png"}
+          alt="Description"
+          className="w-full h-full object-cover transition-transform duration-300 scale-105"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        />
+        {/* <div className="absolute inset-0 bg-gray-500 bg-opacity-40 opacity-0 hover:opacity-100 transition-opacity duration-300"></div> */}
+      </div>
+    </figure>
     </>
   );
 }
