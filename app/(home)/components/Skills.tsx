@@ -53,7 +53,7 @@ const skills=[
         icon: SiPostman,
     },
     {
-        text: "Doker",
+        text: "Docker",
         icon: SiDocker,
     },
     {
