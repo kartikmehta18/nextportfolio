@@ -10,9 +10,13 @@ function Herosection() {
     <div className=" min-h-[60vh] flex flex-col-reverse gap-14 lg:flex-row items-center justify-between">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold text-white-500">
+
+
+ 
+
           Hello👋,Nice to meet you!
           <br />
-          <div className="xl:-ml-14 lg:-ml-14 xl-rotate-1 lg-rotate-1 sm:-ml-14 mt-4 xl:mt-2 lg:mt-2">
+          <div className="xl:-ml-14 lg:-ml-14 xl-rotate-1 lg-rotate-1 ml-14 mt-4 xl:mt-2 lg:mt-2">
             <FuzzyText
               baseIntensity={0.2}
               hoverIntensity={0.5}
@@ -77,6 +81,7 @@ function Herosection() {
       <div className="sm:w-96  sm:h-96 w-72 h-72 mb-10 lg:mb-0 relative">
         <ClipPathImage />
       </div>
+   
     </div>
   );
 }

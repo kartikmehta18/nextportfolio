@@ -35,6 +35,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
 
       <body className={spaceGrotesk.className}>
+
       <ThemeProvider
             attribute="class"
             defaultTheme="dark"
@@ -43,7 +44,9 @@ export default function RootLayout({
           >
             {children}
           </ThemeProvider>
+         
       </body>
     </html>
+    
   );
 }
