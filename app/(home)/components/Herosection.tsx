@@ -12,7 +12,7 @@ function Herosection() {
         <h1 className="text-4xl lg:text-7xl font-bold text-white-500">
           Hello👋,Nice to meet you!
           <br />
-          <div className="xl:-ml-14 lg:-ml-14 xl-rotate-1 lg-rotate-1 sm:-ml-14 mt-4 xl:mt-0 lg:mt-0">
+          <div className="xl:-ml-14 lg:-ml-14 xl-rotate-1 lg-rotate-1 sm:-ml-14 mt-4 xl:mt-2 lg:mt-2">
             <FuzzyText
               baseIntensity={0.2}
               hoverIntensity={0.5}
