@@ -3,6 +3,7 @@ import { MovingBtn } from '@/components/moving-border'
 import Link from 'next/link'
 import React from 'react'
 import FuzzyText from '@/components/FuzzyText';
+import ClipPathImage from '@/components/ClipPathImage';
 
 function Herosection() {
   return (
@@ -40,7 +41,7 @@ function Herosection() {
          {/* <h2 className='text-3xl font-bold text-green-500 underline underline-offset-8 decoration-green-500 -rotate-2'>I am a Full Stack Developer</h2> */}
      </div>
 
-     <div className='relative'>
+     {/* <div className='relative'>
             <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>
 
                 <div className='flex gap-3 translate-x-8'>
@@ -69,7 +70,12 @@ function Herosection() {
             </MovingBtn>
             </Link>
             </div>
-     </div>
+     </div> */}
+<div>
+  <ClipPathImage/>
+</div>
+
+
     </div>
   )
 }
